@@ -1,0 +1,20 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel watch --no-hmr src/index.html --dist-dir ../express/public",
+    "build": "parcel build src/index.html --dist-dir ../express/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
